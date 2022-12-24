@@ -2,42 +2,64 @@
     background-color:#1F2937;
 }
 
-
     .nav-bar{
         display: flex;
         color: #f9faf8;
         justify-content: space-around;
+        padding-top: 20px;
     }
 
         #header-logo{
             font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding-right: 150px;
         }
         .grouped-links{
             display: flex;
-            font-size: 10px;
-            color:#e5e7eb;
+            
+            
+            padding-left: 140px;
             
             }
-            .link{
+            .link>a{
                 margin-left: 20px;
+                color:#e5e7eb;
+                font-size: 14px;
             }
     
     .website-intro{
         display: flex;
-        justify-content: center;
+        margin: 50px 110px 110px 150px;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        
     }
             #website-title{
                 color: #f9faf8;
-                font-size: 24px;
+                font-size: 48px;
+                font-weight: bold;
             }
 
+            h4{
+                margin-bottom: 2px;;
+            }
             #statement{
                 color:#e5e7eb;
                 font-size: 18px;
             }
 
+            button{
+               background-color: #3882f6;
+               color: #e5e7eb;
+               font-size: 16px;
+               border-color:#3882f6;
+               padding: 6px 10px;
+               border-radius:6px;
+            }
             img{
-                height: 150px;
-                width:250px;
+                height: 250px;
+                width:650px;
                 object-fit: contain;
+
             }
