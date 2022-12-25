@@ -63,3 +63,30 @@
                 object-fit: contain;
 
             }
+
+#statement2{
+    border-color: #3882f6;
+    border-style: double;
+    text-align: center;
+}
+
+    #statement2>h3{
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+
+    }
+
+.category-images{
+    display: flex;
+    border-color: #3882f6;
+    border-style: double;
+    justify-content: center;
+    
+
+}
+.section2-image{
+    border-color: red;
+    border-style: double;
+    margin:50px;
+}
