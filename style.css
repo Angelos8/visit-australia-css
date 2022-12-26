@@ -42,6 +42,8 @@
                 color: #f9faf8;
                 font-size: 48px;
                 font-weight: bold;
+                padding-right: 50px;
+
             }
 
             h4{
@@ -61,8 +63,8 @@
                border-radius:6px;
             }
             img{
-                height: 350px;
-                width:650px;
+                height: 300px;
+                width:550px;
                 object-fit: fill;
 
             }
